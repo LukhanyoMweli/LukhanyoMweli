@@ -6,7 +6,7 @@
 📞 079 683 8844  
 📧 222830646@mycput.ac.za  
 🔗 [GitHub Profile](https://github.com/LukhanyoMweli)  
-🌐 [Portfolio Website](https://lukhanyomweli.github.io)
+🌐 [Portfolio Website](https://lukhanyomweli.github.io/LukhanyoMweli/)
 
 ---
 
