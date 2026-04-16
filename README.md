@@ -16,11 +16,19 @@ I am a passionate ICT student at CPUT specialising in Applications Development w
 
 ## 🎥 Mock Interview Video
 
-<a href="https://youtube.com/shorts/v8pkIx5DyXA">
-  <img src="https://img.youtube.com/vi/v8pkIx5DyXA/0.jpg" alt="Mock Interview Video" width="400"/>
-</a>
+<div style="text-align: center;">
+  <iframe 
+    width="350" 
+    height="622" 
+    src="https://www.youtube.com/embed/v8pkIx5DyXA" 
+    title="Mock Interview Video" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
 
-> 🎬 Click the thumbnail above to watch my mock interview video.
+> 🎬 Watch my mock interview video above.
 
 ---
 
