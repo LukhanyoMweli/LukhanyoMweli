@@ -82,7 +82,7 @@ Despite my uncertainty, I successfully deployed my portfolio to GitHub Pages and
 
 ## 📄 Curriculum Vitae
 
-[View My Full CV](https://lukhanyomweli.github.io/LukhanyoMweli/cv.md)
+[View My Full CV] (https://github.com/LukhanyoMweli/LukhanyoMweli/blob/main/cv.md)
 
 ---
 
