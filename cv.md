@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Lukhanyo Mweli
 
 📍 143 Sir Lowry Road, Woodstock, Cape Town, Western Cape, 7915  
