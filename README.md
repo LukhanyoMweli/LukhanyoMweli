@@ -80,9 +80,10 @@ Despite my uncertainty, I successfully deployed my portfolio to GitHub Pages and
 
 ---
 
+
 ## 📄 Curriculum Vitae
 
-[View My Full CV](https://github.com/LukhanyoMweli/LukhanyoMweli/blob/main/cv.md)
+<a href="https://github.com/LukhanyoMweli/LukhanyoMweli/blob/main/cv.md">View My Full CV</a> 
 
 ---
 
