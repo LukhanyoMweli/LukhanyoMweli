@@ -1,5 +1,12 @@
 # Lukhanyo Mweli
 
+## 🎓 GitHub Student Account
+
+[![GitHub](https://img.shields.io/badge/GitHub-LukhanyoMweli-181717?logo=github)](https://github.com/LukhanyoMweli)
+
+I registered my GitHub account using my CPUT student email (222830646@mycput.ac.za) 
+as part of the GitHub Education programme, giving me access to free developer tools.
+
 **ICT Applications Development Student | Future Software Developer**
 
 📍 Woodstock, Cape Town, Western Cape  
