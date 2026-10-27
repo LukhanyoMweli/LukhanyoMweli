@@ -4,7 +4,7 @@
 
 **Project:** WashTrack, a laundry booking and fault-reporting system for students at New Market Junction, Woodstock, Cape Town.
 **Live app:** [WashTrack](https://washtrack-frontend.onrender.com) · **Code:** [GitHub repository](https://github.com/LukhanyoMweli/WashTrack) · **Trello board:** [WashTrack Logbook](https://trello.com/b/IeYy625a)
-**Team:** Oluhle Makhaye ·Lukhanyo Mweli
+**Team:** Oluhle Makhaye · Entle Myezo · Lukhanyo Mweli · MM
 **My role:** Developer: email verification (OTP), UI redesign, bug fixing and deployment
 
 > **Note:** The live app runs on a free Render server, so the first page load can take up to a minute while the server wakes up.
