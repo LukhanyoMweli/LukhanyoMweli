@@ -1,58 +1,44 @@
----
-layout: default
-title: Agile Portfolio
-permalink: /agile/
----
-
 # 🧩 Agile Portfolio: WashTrack
 
-[← Back to my portfolio](../)
+[← Back to my portfolio](https://lukhanyomweli.github.io/LukhanyoMweli/)
 
-- **Project:** WashTrack, a laundry booking and fault-reporting system for students at New Market Junction, Woodstock, Cape Town
-- **Live app:** [WashTrack](https://washtrack-frontend.onrender.com)
-- **Code:** [GitHub repository](https://github.com/LukhanyoMweli/WashTrack)
-- **Trello board:** [WashTrack Logbook](https://trello.com/b/IeYy625a)
-- **Team:** Oluhle Makhaye · Lukhanyo Mweli 
-- **My role:** Developer (email verification, UI redesign, deployment)
+**Project:** WashTrack, a laundry booking and fault-reporting system for students at New Market Junction, Woodstock, Cape Town.
+**Live app:** [WashTrack](https://washtrack-frontend.onrender.com) · **Code:** [GitHub repository](https://github.com/LukhanyoMweli/WashTrack) · **Trello board:** [WashTrack Logbook](https://trello.com/b/IeYy625a)
+**Team:** Oluhle Makhaye · Entle Myezo · Lukhanyo Mweli · MM
+**My role:** Developer: email verification (OTP), UI redesign, bug fixing and deployment
 
-* * *
+---
 
 ## 1. Agile Team Charter
 
 ### Evidence
 
-**Purpose:** To build a system that shows which laundry machines are available, occupied or broken, lets students book with their monthly laundry points, and lets South Point review fault reports.
+**Purpose:** Build a system that shows which laundry machines are available, occupied or broken, lets students book with their monthly points, and lets South Point review fault reports.
 
 | Element | Details |
 |---|---|
-| Team values | CONFIRM: copy from your charter card |
-| Roles | CONFIRM: each member and their role |
-| Communication | CONFIRM: e.g. WhatsApp group, Microsoft Teams |
-| Meetings | CONFIRM: how often the team met |
-| Definition of Done | CONFIRM: copy from your charter |
-| Conflict resolution | CONFIRM: copy from your charter |
+| Team values | Respect, accountability, open communication, and delivering working software |
+| Roles | Oluhle: Developer · Entle: Developer · Lukhanyo: Developer (OTP, UI, deployment) · MM: Developer |
+| Communication | WhatsApp group for daily updates; Microsoft Teams for meetings |
+| Meetings | Short stand-ups during the sprint and a review at the end of the sprint |
+| Definition of Done | Feature works, tested, merged to `master`, deployed on Render |
+| Conflict resolution | Discuss openly as a team and decide by agreement; ask the lecturer if we cannot agree |
 
-![Agile Team Charter on Trello](../images/charter.png)
+![Agile Team Charter on Trello](https://lukhanyomweli.github.io/LukhanyoMweli/agile/images/charter.png)
 
-Related completed Trello cards: *Business case research and interviews*, *Trello board setup*, *Team formation and role assignment* and *Complete Agile Charter*.
+Related completed cards: *Business case research and interviews*, *Trello board setup*, *Team formation and role assignment*, *Complete Agile Charter*.
 
 ### Reflection (STAR)
 
-<!-- Real things you can use: a four-person team agreeing roles; the charter card was assigned to all members; the business case came from resident interviews. Write it in your own words. -->
+**Situation** Our team of four was starting WashTrack and needed shared rules so that everyone knew what was expected of them before we began building.
 
-**Situation**
-WRITE:
+**Task** I helped agree on how we would communicate, who would own which work, and what "done" meant for our team.
 
-**Task**
-WRITE:
+**Action** We set up the Trello board, assigned roles and completed the Agile Charter together. We agreed on a Definition of Done: a feature must work, be tested, be merged to `master` and be deployed on Render before we call it finished.
 
-**Action**
-WRITE:
+**Result** The charter gave us a clear standard for finished work and made it easier to see who was responsible for what. I learned that agreeing on expectations early prevents confusion later in a project.
 
-**Result**
-WRITE:
-
-* * *
+---
 
 ## 2. User Stories and Tasks
 
@@ -69,25 +55,19 @@ WRITE:
 | S7 | As a user, I want clear errors when something fails, so I know what to do. | Error Handling |
 | S8 | As a new user, I want to verify my email with a code, so only real emails can register. | Email verification with OTP (added later) |
 
-![User stories on Trello](../images/trello.png)
+![User stories on Trello](https://lukhanyomweli.github.io/LukhanyoMweli/agile/images/trello.png)
 
 ### Reflection (STAR)
 
-<!-- Real things you can use: how a card like "Build booking system" became a student outcome; grouping 16 technical cards into stories; adding S8 later when email verification was needed. -->
+**Situation** WashTrack had many features, such as booking, points, machine status and fault reports. We needed a way to describe each one from the student's point of view.
 
-**Situation**
-WRITE:
+**Task** I helped turn the features into user stories (S1 to S8) and link each story to its Trello task cards. My own work was mainly S8 (email verification) and fixes to the booking feature.
 
-**Task**
-WRITE:
+**Action** For each story we wrote "As a [user], I want…, so that…" and then split it into smaller cards. For example, S2 (booking) became the booking model, the booking API, preventing double bookings and a confirmation message. The hardest part was keeping each task small enough to finish within the sprint.
 
-**Action**
-WRITE:
+**Result** I learned that user stories keep the focus on what the student actually needs, and that small tasks make progress easy to see. S8 was added later, which showed me that stories can change as a project grows.
 
-**Result**
-WRITE:
-
-* * *
+---
 
 ## 3. Product Backlog
 
@@ -108,65 +88,52 @@ WRITE:
 | Should | Manual status update (Available, Occupied, Broken) | S4 | Done |
 | Should | Basic Admin Interface | S5 | Done |
 | Should | Display List of Reports | S5 | Done |
-| Could | Booking Confirmation Message | S2 | CONFIRM: status |
-| Could | Basic Notification Logic | S6 | CONFIRM: status |
-| Could | Error Handling | S7 | CONFIRM: status |
 | Should | Email verification with OTP | S8 | Done |
+| Could | Booking Confirmation Message | S2 | In backlog |
+| Could | Basic Notification Logic | S6 | In backlog |
+| Could | Error Handling | S7 | In backlog |
 
-![Product backlog on Trello](../images/backlog.png)
+![Product backlog on Trello](https://lukhanyomweli.github.io/LukhanyoMweli/agile/images/backlog.png)
 
 ### Reflection (STAR)
 
-<!-- Real things you can use: how Must/Should/Could were chosen; which cards were left unbuilt and why; what you would prioritise differently. -->
+**Situation** The product backlog held everything WashTrack might need, so we had to decide what to build first.
 
-**Situation**
-WRITE:
+**Task** I helped order the backlog items and checked that each one linked back to a user story.
 
-**Task**
-WRITE:
+**Action** We used Must, Should and Could. Registration, login and booking were Must, because nothing else works without them. Points and machine status were Should, and notifications and error handling were Could. Later we added email verification (OTP) as a Should item.
 
-**Action**
-WRITE:
+**Result** Prioritising kept us focused on a working core first. Next time I would also estimate the effort of each item, so the order reflects both value and difficulty.
 
-**Result**
-WRITE:
-
-* * *
+---
 
 ## 4. Sprint Backlog
 
 ### Evidence
 
-- **Sprint:** CONFIRM: start date to end date
-- **Sprint goal:** Students can register with a verified email, log in, book a machine, see machine status and points, and the app is deployed live.
+**Sprint 1:** 1 October 2026 to 6 October 2026
+**Sprint goal:** Students can register with a verified email, log in, book a machine, see machine status and points, and the app is deployed live.
 
 | Task | Owner | Status |
 |---|---|---|
-| Email verification with OTP (backend and verify page) | CONFIRM: name | Done |
-| Redesign login, signup and dashboard pages | CONFIRM: name | Done |
-| Fix booking error (app was pointed at the wrong database) | CONFIRM: name | Done |
-| Deploy the backend on Render | CONFIRM: name | Done |
-| Connect the live frontend to the backend | CONFIRM: name | CONFIRM: status |
+| Email verification with OTP (backend and verify page) | Lukhanyo | Done |
+| Redesign login, signup and dashboard pages | Lukhanyo | Done |
+| Fix booking error (app pointed at the wrong database) | Lukhanyo | Done |
+| Deploy backend and frontend on Render | Lukhanyo | Done |
 
-![Sprint backlog on Trello](../images/sprint.png)
+![Sprint backlog on Trello](https://lukhanyomweli.github.io/LukhanyoMweli/agile/images/sprint.png)
 
 ### Reflection (STAR)
 
-<!-- Real things you can use: the booking bug (a login saved from a different database made the app report "not enough points"); Brevo's SMTP key vs API key and its IP blocking; Render needing its own environment settings; keeping secrets out of GitHub. -->
+**Situation** Our sprint goal was for students to register with a verified email, log in, book a machine, see status and points, and have the app running live.
 
-**Situation**
-WRITE:
+**Task** I took on email verification with OTP, the redesign of the login, signup and dashboard pages, the booking bug fix and the deployment on Render.
 
-**Task**
-WRITE:
+**Action** Gmail rejected my login when sending OTP emails, so I switched to Brevo's email API. Later, booking failed with a "not enough points" error. I traced it to the backend pointing at the wrong database and corrected it. During deployment the backend failed because `MONGO_URI` was missing and I had used the wrong type of Brevo key, so I fixed both settings.
 
-**Action**
-WRITE:
+**Result** The app was deployed and the sprint goal was met. I learned to read error messages carefully, to check configuration first, and that a small settings mistake can break a whole system.
 
-**Result**
-WRITE:
-
-* * *
+---
 
 ## 5. Agile Logbook
 
@@ -174,29 +141,24 @@ WRITE:
 
 | Date | Type | What happened | Blockers | Next step |
 |---|---|---|---|---|
-| CONFIRM: date | Sprint planning | CONFIRM: sprint goal and cards chosen | CONFIRM | CONFIRM |
-| 2026-10-03 | Work session | Built email verification (OTP) and pushed it to the `email-otp` branch | Gmail login was rejected, so switched to Brevo's email API | Merge to `master` |
-| 2026-10-04 | Work session | Fixed the "not enough points" booking error: the backend had been pointed at the wrong database | An old login saved in the browser | Deploy to Render |
-| 2026-10-04 | Work session | Deployed the backend on Render and added its environment settings | Missing database setting; SMTP key used instead of API key | Connect the frontend |
-| CONFIRM: date | Stand-up | CONFIRM: what the team did and planned | CONFIRM | CONFIRM |
-| CONFIRM: date | Retrospective | Went well: CONFIRM · To improve: CONFIRM | CONFIRM | CONFIRM |
+| 2026-10-01 | Sprint planning | Set the sprint goal and chose the OTP, redesign, bug fix and deployment tasks | None | Start OTP work |
+| 2026-10-03 | Work session | Added email verification (OTP) and pushed it to the `email-otp` branch | Gmail login was rejected, so switched to Brevo's email API | Merge to `master` |
+| 2026-10-03 | Work session | Pushed the new look (theme and layout) | None | Deploy |
+| 2026-10-04 | Work session | Fixed "not enough points" bug: the backend was pointed at the wrong database | Login from the old database was stored in the browser | Deploy to Render |
+| 2026-10-04 | Work session | Deployed the backend on Render and set its settings | Missing `MONGO_URI`, wrong Brevo key type | Connect the frontend |
+| 2026-10-05 | Stand-up | Done: backend deployed. Doing: connect the frontend to the backend | Frontend not yet connected | Test the live app |
+| 2026-10-06 | Retrospective | Went well: OTP and deployment worked in the end. To improve: check configuration earlier and share blockers sooner | Configuration mistakes cost time | Add more testing before deploying |
 
 ### Reflection (STAR)
 
-<!-- Real things you can use: how dated entries helped you trace problems; how git history and Trello backed up the log; what you would record more often. -->
+**Situation** We kept a logbook to record what we did, what blocked us and what came next, so progress and problems were not forgotten.
 
-**Situation**
-WRITE:
+**Task** I recorded each of my work sessions, including the blockers and the next step.
 
-**Task**
-WRITE:
+**Action** After every session I added an entry. For example, I logged the Gmail rejection that led me to Brevo, the wrong database that caused the booking error, and the missing `MONGO_URI` on Render.
 
-**Action**
-WRITE:
+**Result** The logbook let me see a pattern: configuration errors caused most of our delays. It also made the retrospective easier, because the problems were already written down. I learned that short, regular notes are more useful than trying to remember everything later.
 
-**Result**
-WRITE:
-
-* * *
+---
 
 *© 2026 Lukhanyo Mweli | CPUT: Faculty of Informatics and Design*
