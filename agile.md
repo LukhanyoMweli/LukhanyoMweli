@@ -1,3 +1,7 @@
+   ---
+   title: Agile Portfolio
+   permalink: /agile/
+   ---
 # 🧩 Agile Portfolio: WashTrack
 
 [← Back to my portfolio](https://lukhanyomweli.github.io/LukhanyoMweli/)
