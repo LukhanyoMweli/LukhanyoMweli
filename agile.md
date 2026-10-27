@@ -12,8 +12,8 @@ permalink: /agile/
 - **Live app:** [WashTrack](https://washtrack-frontend.onrender.com)
 - **Code:** [GitHub repository](https://github.com/LukhanyoMweli/WashTrack)
 - **Trello board:** [WashTrack Logbook](https://trello.com/b/IeYy625a)
-- **Team:** Oluhle Makhaye · Entle Myezo · Lukhanyo Mweli · CONFIRM: fourth member
-- **My role:** CONFIRM: your role, e.g. developer (email verification, UI redesign, deployment)
+- **Team:** Oluhle Makhaye · Lukhanyo Mweli 
+- **My role:** Developer (email verification, UI redesign, deployment)
 
 * * *
 
