@@ -25,7 +25,7 @@ permalink: /agile/
 | Element | Details |
 |---|---|
 | Team values | Respect, accountability, open communication, and delivering working software |
-| Roles | Oluhle: Developer · Entle: Developer · Lukhanyo: Developer (OTP, UI, deployment) · MM: Developer |
+| Roles | Oluhle: Developer  · Lukhanyo: Developer (OTP, UI, deployment)  |
 | Communication | WhatsApp group for daily updates; Microsoft Teams for meetings |
 | Meetings | Short stand-ups during the sprint and a review at the end of the sprint |
 | Definition of Done | Feature works, tested, merged to `master`, deployed on Render |
