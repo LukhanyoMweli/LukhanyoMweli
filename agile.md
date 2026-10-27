@@ -4,7 +4,7 @@
 
 **Project:** WashTrack, a laundry booking and fault-reporting system for students at New Market Junction, Woodstock, Cape Town.
 **Live app:** [WashTrack](https://washtrack-frontend.onrender.com) · **Code:** [GitHub repository](https://github.com/LukhanyoMweli/WashTrack) · **Trello board:** [WashTrack Logbook](https://trello.com/b/IeYy625a)
-**Team:** Oluhle Makhaye · Entle Myezo · Lukhanyo Mweli · MM
+**Team:** Oluhle Makhaye · Lukhanyo Mweli · 
 **My role:** Developer: email verification (OTP), UI redesign, bug fixing and deployment
 
 > **Note:** The live app runs on a free Render server, so the first page load can take up to a minute while the server wakes up.
@@ -26,7 +26,7 @@
 | Definition of Done | Feature works, tested, merged to `master`, deployed on Render |
 | Conflict resolution | Discuss openly as a team and decide by agreement; ask the lecturer if we cannot agree |
 
-![Agile Team Charter on Trello](https://lukhanyomweli.github.io/LukhanyoMweli/agile/images/charter.jpg)
+![Agile Team Charter on Trello](https://lukhanyomweli.github.io/LukhanyoMweli/charter.jpg)
 
 Related completed cards: *Business case research and interviews*, *Trello board setup*, *Team formation and role assignment*, *Complete Agile Charter*.
 
@@ -57,7 +57,7 @@ Related completed cards: *Business case research and interviews*, *Trello board 
 | S7 | As a user, I want clear errors when something fails, so I know what to do. | Error Handling |
 | S8 | As a new user, I want to verify my email with a code, so only real emails can register. | Email verification with OTP (added later) |
 
-![User stories on Trello](https://lukhanyomweli.github.io/LukhanyoMweli/agile/images/trello.jpg)
+![User stories on Trello](https://lukhanyomweli.github.io/LukhanyoMweli/trello.jpg)
 
 ### Reflection (STAR)
 
@@ -95,7 +95,7 @@ Related completed cards: *Business case research and interviews*, *Trello board 
 | Could | Basic Notification Logic | S6 | In backlog |
 | Could | Error Handling | S7 | In backlog |
 
-![Product backlog on Trello](https://lukhanyomweli.github.io/LukhanyoMweli/agile/images/backlog.jpg)
+![Product backlog on Trello](https://lukhanyomweli.github.io/LukhanyoMweli/backlog.jpg)
 
 On the Trello board, these items are grouped into larger backlog items (Student Dashboard, Laundry Machine Management, Booking Management, Fault Reporting, Manager Dashboard, and Testing & Quality Assurance). Each larger item has a checklist of the detailed tasks listed above, and the checklist counts on the board show how far each one has progressed.
 
@@ -125,7 +125,7 @@ On the Trello board, these items are grouped into larger backlog items (Student 
 | Fix booking error (app pointed at the wrong database) | Lukhanyo | Done |
 | Deploy backend and frontend on Render | Lukhanyo | Done |
 
-![Sprint backlog on Trello](https://lukhanyomweli.github.io/LukhanyoMweli/agile/images/sprint.jpg)
+![Sprint backlog on Trello](https://lukhanyomweli.github.io/LukhanyoMweli/sprint.jpg)
 
 The Trello Sprint Backlog column also holds the earlier sprint cards (Sprint 1: Research, Planning and Project Setup; Sprint 2: Authentication and Student Functionality; Sprint 3: Fault Reporting and Manager Functionality). Each card has a checklist that shows progress.
 
@@ -156,7 +156,7 @@ The Trello Sprint Backlog column also holds the earlier sprint cards (Sprint 1: 
 | 2026-10-06 | Retrospective | Went well: OTP and deployment worked in the end. To improve: check configuration earlier and share blockers sooner | Configuration mistakes cost time | Add more testing before deploying |
 | 2026-10-27 | Work session | Tested the live app. The backend responded ("WashTrack API is running"), but signup showed "cannot send verification email". Started checking the Render logs and Brevo settings | Email sending fails on the deployed version | Check the Brevo API key type and sender, then redeploy |
 
-![Agile Logbook on Trello](https://lukhanyomweli.github.io/LukhanyoMweli/agile/images/logbook.jpg)
+![Agile Logbook on Trello](https://lukhanyomweli.github.io/LukhanyoMweli/logbook.jpg)
 
 ### Reflection (STAR)
 
