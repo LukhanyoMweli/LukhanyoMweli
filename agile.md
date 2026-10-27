@@ -7,6 +7,8 @@
 **Team:** Oluhle Makhaye · Entle Myezo · Lukhanyo Mweli · MM
 **My role:** Developer: email verification (OTP), UI redesign, bug fixing and deployment
 
+> **Note:** The live app runs on a free Render server, so the first page load can take up to a minute while the server wakes up.
+
 ---
 
 ## 1. Agile Team Charter
@@ -24,7 +26,7 @@
 | Definition of Done | Feature works, tested, merged to `master`, deployed on Render |
 | Conflict resolution | Discuss openly as a team and decide by agreement; ask the lecturer if we cannot agree |
 
-![Agile Team Charter on Trello](https://lukhanyomweli.github.io/LukhanyoMweli/agile/images/charter.png)
+![Agile Team Charter on Trello](https://lukhanyomweli.github.io/LukhanyoMweli/agile/images/charter.jpg)
 
 Related completed cards: *Business case research and interviews*, *Trello board setup*, *Team formation and role assignment*, *Complete Agile Charter*.
 
@@ -55,7 +57,7 @@ Related completed cards: *Business case research and interviews*, *Trello board 
 | S7 | As a user, I want clear errors when something fails, so I know what to do. | Error Handling |
 | S8 | As a new user, I want to verify my email with a code, so only real emails can register. | Email verification with OTP (added later) |
 
-![User stories on Trello](https://lukhanyomweli.github.io/LukhanyoMweli/agile/images/trello.png)
+![User stories on Trello](https://lukhanyomweli.github.io/LukhanyoMweli/agile/images/trello.jpg)
 
 ### Reflection (STAR)
 
@@ -88,12 +90,14 @@ Related completed cards: *Business case research and interviews*, *Trello board 
 | Should | Manual status update (Available, Occupied, Broken) | S4 | Done |
 | Should | Basic Admin Interface | S5 | Done |
 | Should | Display List of Reports | S5 | Done |
-| Should | Email verification with OTP | S8 | Done |
+| Should | Email verification with OTP | S8 | Built; email sending on the live app is being fixed |
 | Could | Booking Confirmation Message | S2 | In backlog |
 | Could | Basic Notification Logic | S6 | In backlog |
 | Could | Error Handling | S7 | In backlog |
 
-![Product backlog on Trello](https://lukhanyomweli.github.io/LukhanyoMweli/agile/images/backlog.png)
+![Product backlog on Trello](https://lukhanyomweli.github.io/LukhanyoMweli/agile/images/backlog.jpg)
+
+On the Trello board, these items are grouped into larger backlog items (Student Dashboard, Laundry Machine Management, Booking Management, Fault Reporting, Manager Dashboard, and Testing & Quality Assurance). Each larger item has a checklist of the detailed tasks listed above, and the checklist counts on the board show how far each one has progressed.
 
 ### Reflection (STAR)
 
@@ -111,17 +115,19 @@ Related completed cards: *Business case research and interviews*, *Trello board 
 
 ### Evidence
 
-**Sprint 1:** 1 October 2026 to 6 October 2026
+**Sprint 4: Testing, Deployment and Documentation** (the sprint my tasks belong to): 1 October 2026 to 6 October 2026
 **Sprint goal:** Students can register with a verified email, log in, book a machine, see machine status and points, and the app is deployed live.
 
 | Task | Owner | Status |
 |---|---|---|
-| Email verification with OTP (backend and verify page) | Lukhanyo | Done |
+| Email verification with OTP (backend and verify page) | Lukhanyo | Built; email sending on the live app is being fixed |
 | Redesign login, signup and dashboard pages | Lukhanyo | Done |
 | Fix booking error (app pointed at the wrong database) | Lukhanyo | Done |
 | Deploy backend and frontend on Render | Lukhanyo | Done |
 
-![Sprint backlog on Trello](https://lukhanyomweli.github.io/LukhanyoMweli/agile/images/sprint.png)
+![Sprint backlog on Trello](https://lukhanyomweli.github.io/LukhanyoMweli/agile/images/sprint.jpg)
+
+The Trello Sprint Backlog column also holds the earlier sprint cards (Sprint 1: Research, Planning and Project Setup; Sprint 2: Authentication and Student Functionality; Sprint 3: Fault Reporting and Manager Functionality). Each card has a checklist that shows progress.
 
 ### Reflection (STAR)
 
@@ -129,9 +135,9 @@ Related completed cards: *Business case research and interviews*, *Trello board 
 
 **Task** I took on email verification with OTP, the redesign of the login, signup and dashboard pages, the booking bug fix and the deployment on Render.
 
-**Action** Gmail rejected my login when sending OTP emails, so I switched to Brevo's email API. Later, booking failed with a "not enough points" error. I traced it to the backend pointing at the wrong database and corrected it. During deployment the backend failed because `MONGO_URI` was missing and I had used the wrong type of Brevo key, so I fixed both settings.
+**Action** Gmail rejected my login when sending OTP emails, so I switched to Brevo's email API. Later, booking failed with a "not enough points" error. I traced it to the backend pointing at the wrong database and corrected it. During deployment the backend failed because `MONGO_URI` was missing and I had used the wrong type of Brevo key, so I fixed both settings. After deployment, signup on the live app showed "cannot send verification email", so I checked the Render logs and the Brevo settings to find the cause.
 
-**Result** The app was deployed and the sprint goal was met. I learned to read error messages carefully, to check configuration first, and that a small settings mistake can break a whole system.
+**Result** The app was deployed and most of the sprint goal was reached, with the Sprint 4 checklist showing 11 of 15 items complete. Email verification still needs fixing on the live version. I learned to read error messages carefully, to check configuration first, and that something working locally can still fail once deployed.
 
 ---
 
@@ -148,6 +154,9 @@ Related completed cards: *Business case research and interviews*, *Trello board 
 | 2026-10-04 | Work session | Deployed the backend on Render and set its settings | Missing `MONGO_URI`, wrong Brevo key type | Connect the frontend |
 | 2026-10-05 | Stand-up | Done: backend deployed. Doing: connect the frontend to the backend | Frontend not yet connected | Test the live app |
 | 2026-10-06 | Retrospective | Went well: OTP and deployment worked in the end. To improve: check configuration earlier and share blockers sooner | Configuration mistakes cost time | Add more testing before deploying |
+| 2026-10-27 | Work session | Tested the live app. The backend responded ("WashTrack API is running"), but signup showed "cannot send verification email". Started checking the Render logs and Brevo settings | Email sending fails on the deployed version | Check the Brevo API key type and sender, then redeploy |
+
+![Agile Logbook on Trello](https://lukhanyomweli.github.io/LukhanyoMweli/agile/images/logbook.jpg)
 
 ### Reflection (STAR)
 
@@ -155,7 +164,7 @@ Related completed cards: *Business case research and interviews*, *Trello board 
 
 **Task** I recorded each of my work sessions, including the blockers and the next step.
 
-**Action** After every session I added an entry. For example, I logged the Gmail rejection that led me to Brevo, the wrong database that caused the booking error, and the missing `MONGO_URI` on Render.
+**Action** After every session I added an entry. For example, I logged the Gmail rejection that led me to Brevo, the wrong database that caused the booking error, the missing `MONGO_URI` on Render, and the email error I found when testing the live app.
 
 **Result** The logbook let me see a pattern: configuration errors caused most of our delays. It also made the retrospective easier, because the problems were already written down. I learned that short, regular notes are more useful than trying to remember everything later.
 
